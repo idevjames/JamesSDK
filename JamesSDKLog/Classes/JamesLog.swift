@@ -7,6 +7,6 @@ public class JamesLog {
     
     public func setLog(str: String) {
         let name = JamesCoreInternal.shared.customId()
-        print("\(name) on JamesLog")
+        print("\(str) on \(name)")
     }
 }
