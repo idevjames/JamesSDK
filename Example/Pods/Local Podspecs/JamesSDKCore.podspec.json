@@ -1,7 +1,7 @@
 {
-  "name": "JamesSDK",
+  "name": "JamesSDKCore",
   "version": "0.1.1",
-  "summary": "A short description of JamesSDK.",
+  "summary": "A short description of JamesSDKCore.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/idevjames/JamesSDK",
   "license": {
@@ -18,14 +18,5 @@
   "platforms": {
     "ios": "9.0"
   },
-  "default_subspecs": "Core",
-  "subspecs": [
-    {
-      "name": "Core",
-      "platforms": {
-        "ios": "9.0"
-      },
-      "source_files": "Classes/Core"
-    }
-  ]
+  "source_files": "JamesSDKCore/Classes/**/*"
 }
