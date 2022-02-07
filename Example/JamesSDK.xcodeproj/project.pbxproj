@@ -291,10 +291,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JamesSDK_Example/Pods-JamesSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JamesSDK/JamesSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/JamesSDKCore/JamesSDKCore.framework",
 				"${BUILT_PRODUCTS_DIR}/JamesSDKLog/JamesSDKLog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JamesSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JamesSDKCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JamesSDKLog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

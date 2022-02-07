@@ -1,16 +1,29 @@
 PODS:
-  - JamesSDKLog (0.1.2)
+  - JamesSDK (0.1.3):
+    - JamesSDK/Core (= 0.1.3)
+  - JamesSDK/Core (0.1.3):
+    - JamesSDKCore
+  - JamesSDKCore (0.1.2)
+  - JamesSDKLog (0.1.3)
 
 DEPENDENCIES:
+  - JamesSDK (from `../`)
+  - JamesSDKCore (from `../`)
   - JamesSDKLog (from `../`)
 
 EXTERNAL SOURCES:
+  JamesSDK:
+    :path: "../"
+  JamesSDKCore:
+    :path: "../"
   JamesSDKLog:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JamesSDKLog: fe4fb6eeda09a542907dbc3156b5f8e8a7996a41
+  JamesSDK: d9ab4aa85497df0495f217e88dc39cfdcdbbd3cf
+  JamesSDKCore: 93f9c4f999072100a0e931b2fac95826d56b2023
+  JamesSDKLog: c2eaf89f4fb86e87f8b98921b99fd960f0fcbf9f
 
-PODFILE CHECKSUM: 3300f829e3afd93340c549e2ed4ae32833c72642
+PODFILE CHECKSUM: a5f0ae914cf379e28ac5ac59e12b009d9aa7e59b
 
 COCOAPODS: 1.11.2

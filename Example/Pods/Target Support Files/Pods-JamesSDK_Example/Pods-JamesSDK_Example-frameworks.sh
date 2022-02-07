@@ -176,9 +176,13 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JamesSDK/JamesSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JamesSDKCore/JamesSDKCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JamesSDKLog/JamesSDKLog.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JamesSDK/JamesSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JamesSDKCore/JamesSDKCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JamesSDKLog/JamesSDKLog.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
