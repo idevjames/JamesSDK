@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double JamesSDKCoreVersionNumber;
-FOUNDATION_EXPORT const unsigned char JamesSDKCoreVersionString[];
+FOUNDATION_EXPORT double JamesSDKLogVersionNumber;
+FOUNDATION_EXPORT const unsigned char JamesSDKLogVersionString[];
 

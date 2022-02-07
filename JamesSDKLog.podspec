@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JamesSDK'
+  s.name             = 'JamesSDKLog'
   s.version          = '0.1.2'
-  s.summary          = 'A short description of JamesSDK.'
+  s.summary          = 'A short description of JamesSDKLog.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.default_subspec = 'Core'
-  
-  s.subspec 'Core' do |ss|
-    ss.ios.deployment_target = '9.0'
-    ss.source_files = 'JamesSDKCore/Classes/**/*'
-    ss.dependency 'JamesSDKCore'
-  end
+  s.source_files = [
+    'JamesSDKLog/Classes/**/*',
+    'JamesSDKCore/Classes/**/*'
+  ]
   
   # s.resource_bundles = {
   #   'JamesSDK' => ['JamesSDK/Assets/*.png']

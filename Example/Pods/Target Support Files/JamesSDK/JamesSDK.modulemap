@@ -1,6 +1,0 @@
-framework module JamesSDK {
-  umbrella header "JamesSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

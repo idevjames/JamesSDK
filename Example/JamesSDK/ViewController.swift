@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import JamesSDKLog
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        JamesLog.shared.setLog(str: "laksd")
     }
 
     override func didReceiveMemoryWarning() {

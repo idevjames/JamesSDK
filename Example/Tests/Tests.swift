@@ -1,5 +1,5 @@
 import XCTest
-import JamesSDK
+import JamesSDKLog
 
 class Tests: XCTestCase {
     
