@@ -10,22 +10,22 @@
 		024DD25A606E4461FA3F1E42977B308F /* Pods-JamesSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D405D26DD5B7AC9C0CF258055F4187 /* Pods-JamesSDK_Example-dummy.m */; };
 		0B03BF412277AFFC9A7EA03F49DE9C06 /* JamesSDKLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F671E5F66693D8AEE293AABD19B9B666 /* JamesSDKLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B8323317B712BA6D7F819BFAF9A73E0 /* JamesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C479B2345605D76332C27C7AAA1C /* JamesCore.swift */; };
-		1C8CF921CEDEAF6FF8284105A579F56B /* JamesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C479B2345605D76332C27C7AAA1C /* JamesCore.swift */; };
 		1CD9224C62B415F16CCFFD1781279C0C /* JamesSDKLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A817B055D28360CF239E8F416B2A4B5B /* JamesSDKLog-dummy.m */; };
-		309EFD4357F68CFD34602453857FEA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4121874FC9CF51BC02BC68A1EFC2D0DD /* JamesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C479B2345605D76332C27C7AAA1C /* JamesCore.swift */; };
 		52198305CB0FEE8BC8A60B68865A0114 /* Pods-JamesSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 871ED37D6F2749C124353421660A3FD8 /* Pods-JamesSDK_Tests-dummy.m */; };
-		5CD0A0B6B5C88E3FA258BBD07E0F4B27 /* JamesSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A1C1DA036ECADBD1D936BFCF1B5EEC /* JamesSDKCore-dummy.m */; };
-		5ED3A201511D45A7D5E1635E8A929A35 /* JamesSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BE04A02DE31B83DBFF98852BF06924 /* JamesSDK-dummy.m */; };
+		532C4D2B86EFDBDEFE4D7EBA6C1BC9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		54985D47DFC823894B087439FE2CC716 /* JamesSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BE04A02DE31B83DBFF98852BF06924 /* JamesSDK-dummy.m */; };
+		5ED7CD39FC95A69C506D1F0ED48E2FDD /* JamesSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A1C1DA036ECADBD1D936BFCF1B5EEC /* JamesSDKCore-dummy.m */; };
 		6357D56D6958682F3FA149710C02FC0F /* JamesLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17169EC9CB35FB3223EEAAAABF3EF80 /* JamesLog.swift */; };
+		749D877722749220D47C4D8EC69BA830 /* JamesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C479B2345605D76332C27C7AAA1C /* JamesCore.swift */; };
+		765F763C8C32D40FD71001FFD9EA8377 /* JamesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C479B2345605D76332C27C7AAA1C /* JamesCore.swift */; };
 		93764F7DC2825EF78AAAFD4687FC239E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		93842552548F61B910D7023FD0202C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BE78A339551168150E7125B912A1445A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CF84EAF26EBF7BFC1E4F96B0A1E3015E /* JamesSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF423FCA14B4CD2BF9AB7D569D6C417E /* JamesSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBFAB1F5FDAB0FCF704D64547DEF464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0AF124CF30E1113F0C20180EE70E37C /* JamesSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCF6A8A5D9733D0BC003727F28A3198 /* JamesSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD54C07059035F7C6F60F08EC6AF0101 /* Pods-JamesSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5957AA818175CFB7FCD23A2E38AF1AF5 /* Pods-JamesSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE4966E48BF84D9ED8112BAC25608CDF /* Pods-JamesSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DE107826273C277F54B73C1C0DBBCC /* Pods-JamesSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3035CEA25AE55F66A993C1AA835AAD6 /* JamesSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCF6A8A5D9733D0BC003727F28A3198 /* JamesSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F63AF71CF127011A1C8EC4B650D95DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE2DFA53CD65C90472030C6DCCC43630 /* JamesSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF423FCA14B4CD2BF9AB7D569D6C417E /* JamesSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +56,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7A0B111D72AAA4F58D0B2783C9F46AB2;
 			remoteInfo = JamesSDK;
-		};
-		C6EF246395B1BC4DBD941F73D5FB9B91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EB9B442995885E174DB4586C867E69D;
-			remoteInfo = JamesSDKCore;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -137,19 +130,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F1C32BC0E3CB2054FB691A20DCE093 /* Frameworks */ = {
+		85F2A06FF9EDC2002CE6A4DEAE00F1E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309EFD4357F68CFD34602453857FEA66 /* Foundation.framework in Frameworks */,
+				532C4D2B86EFDBDEFE4D7EBA6C1BC9F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E07F57AF0840742E921C0112D9C19532 /* Frameworks */ = {
+		A9A3CF8AA18291941D4A55C4F440B09A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63AF71CF127011A1C8EC4B650D95DF0 /* Foundation.framework in Frameworks */,
+				BFBFAB1F5FDAB0FCF704D64547DEF464 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +379,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3E791A78D709801F51DA9CEFD3A874F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AF124CF30E1113F0C20180EE70E37C /* JamesSDKCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C9ADAAE23C48B75547498E436121B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DFA53CD65C90472030C6DCCC43630 /* JamesSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59683BBF35AD1445E2F75AFD15D8693C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,27 +403,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EC0AAFEA459924272FDF984F2F57ED4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3035CEA25AE55F66A993C1AA835AAD6 /* JamesSDKCore-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D2695030AA3F5C3833660C967F4D46A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD54C07059035F7C6F60F08EC6AF0101 /* Pods-JamesSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC139F246762ACB3ED0EBE2BB57053D0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF84EAF26EBF7BFC1E4F96B0A1E3015E /* JamesSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,12 +424,12 @@
 /* Begin PBXNativeTarget section */
 		2EB9B442995885E174DB4586C867E69D /* JamesSDKCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6208704E220A63292FD34370731775B /* Build configuration list for PBXNativeTarget "JamesSDKCore" */;
+			buildConfigurationList = BD080D19C610AFBF7CB06A5AE14EAF66 /* Build configuration list for PBXNativeTarget "JamesSDKCore" */;
 			buildPhases = (
-				6EC0AAFEA459924272FDF984F2F57ED4 /* Headers */,
-				48E533AC486E09248E63FE6F836D3A06 /* Sources */,
-				90F1C32BC0E3CB2054FB691A20DCE093 /* Frameworks */,
-				DABFCC76BF526811D857227D8DB4A77A /* Resources */,
+				3E791A78D709801F51DA9CEFD3A874F3 /* Headers */,
+				D203577A689DBD1F5F4C093C65B45859 /* Sources */,
+				A9A3CF8AA18291941D4A55C4F440B09A /* Frameworks */,
+				ECE849D152624294690A401E44AD3BAB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -470,17 +463,16 @@
 		};
 		7A0B111D72AAA4F58D0B2783C9F46AB2 /* JamesSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51150B20863F1E8BEEF4EB6927604770 /* Build configuration list for PBXNativeTarget "JamesSDK" */;
+			buildConfigurationList = D0D74AC02F251955AE4CEA39DB60CCAF /* Build configuration list for PBXNativeTarget "JamesSDK" */;
 			buildPhases = (
-				AC139F246762ACB3ED0EBE2BB57053D0 /* Headers */,
-				B06FFCFDCAB4E004EB4F41F7899B5487 /* Sources */,
-				E07F57AF0840742E921C0112D9C19532 /* Frameworks */,
-				7D280FEDAD37E43C9F344913793A88FA /* Resources */,
+				53C9ADAAE23C48B75547498E436121B6 /* Headers */,
+				B8CE0DF2AFF097B9DEEBF390D4DAE368 /* Sources */,
+				85F2A06FF9EDC2002CE6A4DEAE00F1E1 /* Frameworks */,
+				DD5AA88F17C922F991700E0B18AD674E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				714CAE22FA30B1DA4B5D00B5FEB36C59 /* PBXTargetDependency */,
 			);
 			name = JamesSDK;
 			productName = JamesSDK;
@@ -563,13 +555,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D280FEDAD37E43C9F344913793A88FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A70AF07B838A2C8BD780CBA205BE8FF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -577,7 +562,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DABFCC76BF526811D857227D8DB4A77A /* Resources */ = {
+		DD5AA88F17C922F991700E0B18AD674E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -585,6 +570,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DECE2733DA210FEC5B8F936A28247266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE849D152624294690A401E44AD3BAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -604,15 +596,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48E533AC486E09248E63FE6F836D3A06 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4121874FC9CF51BC02BC68A1EFC2D0DD /* JamesCore.swift in Sources */,
-				5CD0A0B6B5C88E3FA258BBD07E0F4B27 /* JamesSDKCore-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5C33E9D1040DB99386E4642BBBCEF3A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -621,12 +604,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B06FFCFDCAB4E004EB4F41F7899B5487 /* Sources */ = {
+		B8CE0DF2AFF097B9DEEBF390D4DAE368 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8CF921CEDEAF6FF8284105A579F56B /* JamesCore.swift in Sources */,
-				5ED3A201511D45A7D5E1635E8A929A35 /* JamesSDK-dummy.m in Sources */,
+				765F763C8C32D40FD71001FFD9EA8377 /* JamesCore.swift in Sources */,
+				54985D47DFC823894B087439FE2CC716 /* JamesSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +618,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				52198305CB0FEE8BC8A60B68865A0114 /* Pods-JamesSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D203577A689DBD1F5F4C093C65B45859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749D877722749220D47C4D8EC69BA830 /* JamesCore.swift in Sources */,
+				5ED7CD39FC95A69C506D1F0ED48E2FDD /* JamesSDKCore-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,15 +657,70 @@
 			target = 2EB9B442995885E174DB4586C867E69D /* JamesSDKCore */;
 			targetProxy = ABD1B0CD80B4F068FC96D9FD16EC6018 /* PBXContainerItemProxy */;
 		};
-		714CAE22FA30B1DA4B5D00B5FEB36C59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JamesSDKCore;
-			target = 2EB9B442995885E174DB4586C867E69D /* JamesSDKCore */;
-			targetProxy = C6EF246395B1BC4DBD941F73D5FB9B91 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0564FA2DC08D666B1DE9B0BF21186D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD87E9D898F8D26AD0EC8C033AA0FD6 /* JamesSDKCore.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JamesSDKCore/JamesSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = JamesSDKCore;
+				PRODUCT_NAME = JamesSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1824FB1CE635A04F79089105B5411A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A906A2A04E898BBD5223BE928BAA9FC7 /* JamesSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JamesSDK/JamesSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JamesSDK/JamesSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JamesSDK/JamesSDK.modulemap";
+				PRODUCT_MODULE_NAME = JamesSDK;
+				PRODUCT_NAME = JamesSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		23351218B36A70731A597F12225152B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38B527B3B729DFD91D9713B422B27D63 /* Pods-JamesSDK_Example.release.xcconfig */;
@@ -773,6 +820,37 @@
 			};
 			name = Debug;
 		};
+		388B611BA56FC67011DB6BDBE6160482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176887B0DDA18F3B45212D7ED6AD4738 /* JamesSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JamesSDK/JamesSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JamesSDK/JamesSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JamesSDK/JamesSDK.modulemap";
+				PRODUCT_MODULE_NAME = JamesSDK;
+				PRODUCT_NAME = JamesSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3991A2DFA7483957A8E19CF2C0CEF6D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89F4AA68D74BDE35454C3FF96367BAA4 /* JamesSDKLog.debug.xcconfig */;
@@ -829,67 +907,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		468D79E224FEF0E619544EAD158BBBF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 176887B0DDA18F3B45212D7ED6AD4738 /* JamesSDK.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JamesSDK/JamesSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JamesSDK/JamesSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JamesSDK/JamesSDK.modulemap";
-				PRODUCT_MODULE_NAME = JamesSDK;
-				PRODUCT_NAME = JamesSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		519DC3A465323E843FA148A6D61731BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D77739163AD6DF3AA773AB33D3730D7 /* JamesSDKCore.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JamesSDKCore/JamesSDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore.modulemap";
-				PRODUCT_MODULE_NAME = JamesSDKCore;
-				PRODUCT_NAME = JamesSDKCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -960,9 +977,9 @@
 			};
 			name = Release;
 		};
-		7DD05CB6ACBC28142C84B4887C20CA53 /* Debug */ = {
+		A90F4E15C5380D76170F9BF2D123D096 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A906A2A04E898BBD5223BE928BAA9FC7 /* JamesSDK.debug.xcconfig */;
+			baseConfigurationReference = 9D77739163AD6DF3AA773AB33D3730D7 /* JamesSDKCore.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -972,14 +989,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JamesSDK/JamesSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JamesSDK/JamesSDK-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JamesSDKCore/JamesSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JamesSDK/JamesSDK.modulemap";
-				PRODUCT_MODULE_NAME = JamesSDK;
-				PRODUCT_NAME = JamesSDK;
+				MODULEMAP_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = JamesSDKCore;
+				PRODUCT_NAME = JamesSDKCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1052,37 +1069,6 @@
 			};
 			name = Release;
 		};
-		CBDA7F86B6B789117E3C451023E9F6C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BD87E9D898F8D26AD0EC8C033AA0FD6 /* JamesSDKCore.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JamesSDKCore/JamesSDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JamesSDKCore/JamesSDKCore.modulemap";
-				PRODUCT_MODULE_NAME = JamesSDKCore;
-				PRODUCT_NAME = JamesSDKCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DAA7EFC90AC026C167C307905078A995 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26A75D9C64B7D8E82F171638D319DEA7 /* Pods-JamesSDK_Example.debug.xcconfig */;
@@ -1145,20 +1131,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51150B20863F1E8BEEF4EB6927604770 /* Build configuration list for PBXNativeTarget "JamesSDK" */ = {
+		BD080D19C610AFBF7CB06A5AE14EAF66 /* Build configuration list for PBXNativeTarget "JamesSDKCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DD05CB6ACBC28142C84B4887C20CA53 /* Debug */,
-				468D79E224FEF0E619544EAD158BBBF7 /* Release */,
+				A90F4E15C5380D76170F9BF2D123D096 /* Debug */,
+				0564FA2DC08D666B1DE9B0BF21186D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6208704E220A63292FD34370731775B /* Build configuration list for PBXNativeTarget "JamesSDKCore" */ = {
+		D0D74AC02F251955AE4CEA39DB60CCAF /* Build configuration list for PBXNativeTarget "JamesSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				519DC3A465323E843FA148A6D61731BC /* Debug */,
-				CBDA7F86B6B789117E3C451023E9F6C2 /* Release */,
+				1824FB1CE635A04F79089105B5411A24 /* Debug */,
+				388B611BA56FC67011DB6BDBE6160482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

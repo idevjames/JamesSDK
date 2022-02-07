@@ -25,9 +25,16 @@
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "JamesSDKCore/Classes/**/*",
+      "source_files": "JamesSDKCore/Classes/**/*"
+    },
+    {
+      "name": "Log",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "JamesSDKLog/Classes/**/*",
       "dependencies": {
-        "JamesSDKCore": [
+        "JamesSDK/Core": [
 
         ]
       }
