@@ -1,0 +1,16 @@
+PODS:
+  - JamesSDK (0.1.0)
+
+DEPENDENCIES:
+  - JamesSDK (from `../`)
+
+EXTERNAL SOURCES:
+  JamesSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JamesSDK: 29dc00d1fb1dcbe199b196465bcc7e09e193e653
+
+PODFILE CHECKSUM: 85accae0470eb31d49ac9977b6c5c5be97a73d31
+
+COCOAPODS: 1.11.2

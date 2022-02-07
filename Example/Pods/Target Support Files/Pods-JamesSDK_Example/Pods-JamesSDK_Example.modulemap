@@ -1,0 +1,6 @@
+framework module Pods_JamesSDK_Example {
+  umbrella header "Pods-JamesSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
