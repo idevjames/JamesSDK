@@ -6,90 +6,88 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		7A0B111D72AAA4F58D0B2783C9F46AB2 /* JamesSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 330F0E77935B03B4B0C33376AEA83A6A /* Build configuration list for PBXAggregateTarget "JamesSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = JamesSDK;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		3C254374687B108D4F157D9DFC914575 /* Pods-JamesSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DE107826273C277F54B73C1C0DBBCC /* Pods-JamesSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D3B4EDCED571F616F80DC342BE6A3FD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E57E04320247CCA0E1EF097FBF82BF /* ReplaceMe.swift */; };
+		3D3B4EDCED571F616F80DC342BE6A3FD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A4DFD55C52A11527888F4911E61165 /* ReplaceMe.swift */; };
 		52198305CB0FEE8BC8A60B68865A0114 /* Pods-JamesSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 871ED37D6F2749C124353421660A3FD8 /* Pods-JamesSDK_Tests-dummy.m */; };
+		532C4D2B86EFDBDEFE4D7EBA6C1BC9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B17D69F3B396CD3133F985FDD286A05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A4DFD55C52A11527888F4911E61165 /* ReplaceMe.swift */; };
 		8B2ADB27FEFB3731C7D365A39B877B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		93842552548F61B910D7023FD0202C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A1ED43F542058344B5338807B6E90A37 /* JamesSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EA816C8C0313739C44363ECFA5D184 /* JamesSDKCore-dummy.m */; };
+		A1ED43F542058344B5338807B6E90A37 /* JamesSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F2FF6794DB8ED8A5BE552B913BF1 /* JamesSDKCore-dummy.m */; };
 		AEEEA3E906030AAA34F966A517A38B6C /* Pods-JamesSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D405D26DD5B7AC9C0CF258055F4187 /* Pods-JamesSDK_Example-dummy.m */; };
 		BFBFAB1F5FDAB0FCF704D64547DEF464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C0AF124CF30E1113F0C20180EE70E37C /* JamesSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BFBE6912F8EF9D31CEA071ABC37765 /* JamesSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AF124CF30E1113F0C20180EE70E37C /* JamesSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4776508AE0004B4A71E7BCB14A8B349 /* JamesSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD54C07059035F7C6F60F08EC6AF0101 /* Pods-JamesSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5957AA818175CFB7FCD23A2E38AF1AF5 /* Pods-JamesSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E28A304E0BC4072A2006E4EC4B66FACD /* JamesSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE999C43CAD3E950488C18F501DC2FE /* JamesSDK-dummy.m */; };
+		FE2DFA53CD65C90472030C6DCCC43630 /* JamesSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EC08E70B3B8EE0C45E2F0FBE1F830E /* JamesSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19A5AE281AF6BD0ADB0F2DA85FE04ABA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A0B111D72AAA4F58D0B2783C9F46AB2;
-			remoteInfo = JamesSDK;
-		};
-		1CA79BB2319E0645DFF1C920CF34B88B /* PBXContainerItemProxy */ = {
+		67A920D9165D7F96808BA8B7E86BBA5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2EB9B442995885E174DB4586C867E69D;
 			remoteInfo = JamesSDKCore;
 		};
-		3687F04B90D4142BB031170DF633469B /* PBXContainerItemProxy */ = {
+		8DBD913FB24DB5DA60439D85BAD4C32D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3BF4B8D197A9D16440E6B39E18E28F04;
 			remoteInfo = "Pods-JamesSDK_Example";
 		};
+		FB78271B2F25BFB6C91CE2124B9766B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0B111D72AAA4F58D0B2783C9F46AB2;
+			remoteInfo = JamesSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E57E04320247CCA0E1EF097FBF82BF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JamesSDKCore/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		07E15AB78E238F5761993443BEDFC84B /* Pods-JamesSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JamesSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		0E5851D29A5453FF6EC4168EDC507160 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0DAC6DC35AF1ED87FD1032B06592706B /* JamesSDKCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JamesSDKCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		10047B5CE114CB178E8F9052A81E3C59 /* JamesSDKCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JamesSDKCore; path = JamesSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16BFBE6912F8EF9D31CEA071ABC37765 /* JamesSDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JamesSDKCore-umbrella.h"; sourceTree = "<group>"; };
-		194B810DB8ABD877C12B5D2BC0C7F25E /* JamesSDKCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JamesSDKCore-Info.plist"; sourceTree = "<group>"; };
+		11D6F2FF6794DB8ED8A5BE552B913BF1 /* JamesSDKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JamesSDKCore-dummy.m"; sourceTree = "<group>"; };
 		25DE107826273C277F54B73C1C0DBBCC /* Pods-JamesSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JamesSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		26782DFAB1F94C54689E0153469CCE56 /* JamesSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JamesSDK.modulemap; sourceTree = "<group>"; };
 		26A75D9C64B7D8E82F171638D319DEA7 /* Pods-JamesSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JamesSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE999C43CAD3E950488C18F501DC2FE /* JamesSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JamesSDK-dummy.m"; sourceTree = "<group>"; };
 		38B527B3B729DFD91D9713B422B27D63 /* Pods-JamesSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JamesSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		452D0987D19583819B10B989F864389A /* JamesSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4FC675975840A8AB7A33DD5AE630BB79 /* JamesSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDK.release.xcconfig; sourceTree = "<group>"; };
 		52D405D26DD5B7AC9C0CF258055F4187 /* Pods-JamesSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JamesSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		54E88536FD9A2DADD3ED8601055E1FB2 /* JamesSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JamesSDK; path = JamesSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5561B514D3FBBDAA73B5849165C6EACD /* JamesSDKCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDKCore.release.xcconfig; sourceTree = "<group>"; };
 		5957AA818175CFB7FCD23A2E38AF1AF5 /* Pods-JamesSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JamesSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A86546768521405126F216C15B469FB /* Pods-JamesSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JamesSDK_Example.modulemap"; sourceTree = "<group>"; };
 		64FAD40FE8F370BC5FD6A94DF33589A1 /* Pods-JamesSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JamesSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		69C8517DB2A853EBC98BC4FDD6F66DF9 /* JamesSDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JamesSDKCore.modulemap; sourceTree = "<group>"; };
-		72EA816C8C0313739C44363ECFA5D184 /* JamesSDKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JamesSDKCore-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7895C0A734D51213C028D7CF003D0F89 /* Pods-JamesSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JamesSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B79C4831B7680C0F3F8E90D6D0F3C15 /* JamesSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JamesSDK-prefix.pch"; sourceTree = "<group>"; };
+		7C468C5A7D59A08CFE7F1736452A9BA5 /* JamesSDKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JamesSDKCore-prefix.pch"; sourceTree = "<group>"; };
+		804A06E314F2C1D7B1193F04FAAD6262 /* JamesSDKCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JamesSDKCore-Info.plist"; sourceTree = "<group>"; };
 		83F0A78C1E0B29247D49E223BD9D6365 /* Pods-JamesSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JamesSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		871ED37D6F2749C124353421660A3FD8 /* Pods-JamesSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JamesSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		89A416623A52FFBED79A436861D005B6 /* JamesSDKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JamesSDKCore-prefix.pch"; sourceTree = "<group>"; };
-		8FEF26D6873A324C4157BFFDD91E93B9 /* JamesSDKCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JamesSDKCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B975997AB2271130F14A01CDFA26C41 /* JamesSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JamesSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C7F5DEC9313670D659C8C5E4CB94835 /* Pods-JamesSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JamesSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA558260381CE949EE325F982A6DB3A4 /* Pods-JamesSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JamesSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		AAEF4A0680619FF20B2B67AF5D0D7C9D /* Pods-JamesSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JamesSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		B059CB0585B81A4493D613A572E1037A /* JamesSDKCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDKCore.debug.xcconfig; sourceTree = "<group>"; };
+		B3A4DFD55C52A11527888F4911E61165 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JamesSDKCore/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B7EC08E70B3B8EE0C45E2F0FBE1F830E /* JamesSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JamesSDK-umbrella.h"; sourceTree = "<group>"; };
 		BF2BA12CD110A167D04DD600C792EE54 /* Pods-JamesSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JamesSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4776508AE0004B4A71E7BCB14A8B349 /* JamesSDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JamesSDKCore-umbrella.h"; sourceTree = "<group>"; };
 		CE69992B85D56B6AAD5113A28EB87C2E /* Pods-JamesSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JamesSDK_Tests"; path = Pods_JamesSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41F024FD7D6E4B347B979A18BFB5665 /* Pods-JamesSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JamesSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E3402BD6A0CE395F0BF9B64C8FA8E46C /* JamesSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDK.release.xcconfig; sourceTree = "<group>"; };
-		F1229703C7CD8DF171EBA24851A98201 /* JamesSDKCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDKCore.release.xcconfig; sourceTree = "<group>"; };
+		D88B7EF116FBE0DCD522526879A88B19 /* JamesSDKCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDKCore.debug.xcconfig; sourceTree = "<group>"; };
+		E23625FAC4A95DD69FEF4C6A9CACFC08 /* JamesSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JamesSDK-Info.plist"; sourceTree = "<group>"; };
+		E6E8A0DB1E5B64ED139668DBC0DB4D46 /* JamesSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JamesSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAFD8797C3332205523630F55BC98715 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F52A93FE751540AED4F3E16687C3A054 /* Pods-JamesSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JamesSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F5EC3961227C4C35F32AC99D4400C644 /* JamesSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JamesSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F83FA6E277D487A87533FA7F1EAD8105 /* JamesSDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JamesSDKCore.modulemap; sourceTree = "<group>"; };
 		F9F3951CBEE482F3712ECCE1D8C2BC62 /* Pods-JamesSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JamesSDK_Example"; path = Pods_JamesSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,6 +108,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85F2A06FF9EDC2002CE6A4DEAE00F1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532C4D2B86EFDBDEFE4D7EBA6C1BC9F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9A3CF8AA18291941D4A55C4F440B09A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,12 +127,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38C0707197A2FDC397F4B609B1C2B9B4 /* Pod */ = {
+		03BC66261475C53CA8B2BB88C33F827A /* JamesSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8FEF26D6873A324C4157BFFDD91E93B9 /* JamesSDKCore.podspec */,
+				4FD065C3DAD2068932E308673D5E361B /* Core */,
+				1F2865E4825D695AD7E1170FB378AD68 /* Pod */,
+				5A044402B71EE6FF89E3CBDE603B7541 /* Support Files */,
+			);
+			name = JamesSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F2865E4825D695AD7E1170FB378AD68 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E6E8A0DB1E5B64ED139668DBC0DB4D46 /* JamesSDK.podspec */,
+				EAFD8797C3332205523630F55BC98715 /* LICENSE */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4FD065C3DAD2068932E308673D5E361B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3A4DFD55C52A11527888F4911E61165 /* ReplaceMe.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -137,19 +163,59 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		71EA3E12D88FA849F6AECC5E74D9FBE4 /* JamesSDK */ = {
+		5A044402B71EE6FF89E3CBDE603B7541 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				80159426BA8CE3B48ED23B13652B0FFD /* Pod */,
-				CC40E2BED628F0D8193BF440C7437ED6 /* Support Files */,
+				26782DFAB1F94C54689E0153469CCE56 /* JamesSDK.modulemap */,
+				2EE999C43CAD3E950488C18F501DC2FE /* JamesSDK-dummy.m */,
+				E23625FAC4A95DD69FEF4C6A9CACFC08 /* JamesSDK-Info.plist */,
+				7B79C4831B7680C0F3F8E90D6D0F3C15 /* JamesSDK-prefix.pch */,
+				B7EC08E70B3B8EE0C45E2F0FBE1F830E /* JamesSDK-umbrella.h */,
+				452D0987D19583819B10B989F864389A /* JamesSDK.debug.xcconfig */,
+				4FC675975840A8AB7A33DD5AE630BB79 /* JamesSDK.release.xcconfig */,
 			);
-			name = JamesSDK;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JamesSDK";
+			sourceTree = "<group>";
+		};
+		6D3EB81F724894573F196D1A28F9B1E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83FA6E277D487A87533FA7F1EAD8105 /* JamesSDKCore.modulemap */,
+				11D6F2FF6794DB8ED8A5BE552B913BF1 /* JamesSDKCore-dummy.m */,
+				804A06E314F2C1D7B1193F04FAAD6262 /* JamesSDKCore-Info.plist */,
+				7C468C5A7D59A08CFE7F1736452A9BA5 /* JamesSDKCore-prefix.pch */,
+				C4776508AE0004B4A71E7BCB14A8B349 /* JamesSDKCore-umbrella.h */,
+				D88B7EF116FBE0DCD522526879A88B19 /* JamesSDKCore.debug.xcconfig */,
+				5561B514D3FBBDAA73B5849165C6EACD /* JamesSDKCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JamesSDKCore";
+			sourceTree = "<group>";
+		};
+		9286B8F335F8C6A2FF6771803340C888 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03BC66261475C53CA8B2BB88C33F827A /* JamesSDK */,
+				A1B650713E2F486CDA71E9EB1B5EB8AE /* JamesSDKCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A1B650713E2F486CDA71E9EB1B5EB8AE /* JamesSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				CBB6D1C60B1258F24765FAE047243CB8 /* Pod */,
+				6D3EB81F724894573F196D1A28F9B1E5 /* Support Files */,
+			);
+			name = JamesSDKCore;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7AD390D8B48FF8B3922CCF20AEE3C567 /* Products */ = {
+		A1FA6136D6F092FC51DA1CF44828C681 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				54E88536FD9A2DADD3ED8601055E1FB2 /* JamesSDK */,
 				10047B5CE114CB178E8F9052A81E3C59 /* JamesSDKCore */,
 				F9F3951CBEE482F3712ECCE1D8C2BC62 /* Pods-JamesSDK_Example */,
 				CE69992B85D56B6AAD5113A28EB87C2E /* Pods-JamesSDK_Tests */,
@@ -157,67 +223,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80159426BA8CE3B48ED23B13652B0FFD /* Pod */ = {
+		CBB6D1C60B1258F24765FAE047243CB8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9B975997AB2271130F14A01CDFA26C41 /* JamesSDK.podspec */,
-				0E5851D29A5453FF6EC4168EDC507160 /* LICENSE */,
+				0DAC6DC35AF1ED87FD1032B06592706B /* JamesSDKCore.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		89CB67CBF1F5D4676172694D5A3E63D8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				69C8517DB2A853EBC98BC4FDD6F66DF9 /* JamesSDKCore.modulemap */,
-				72EA816C8C0313739C44363ECFA5D184 /* JamesSDKCore-dummy.m */,
-				194B810DB8ABD877C12B5D2BC0C7F25E /* JamesSDKCore-Info.plist */,
-				89A416623A52FFBED79A436861D005B6 /* JamesSDKCore-prefix.pch */,
-				16BFBE6912F8EF9D31CEA071ABC37765 /* JamesSDKCore-umbrella.h */,
-				B059CB0585B81A4493D613A572E1037A /* JamesSDKCore.debug.xcconfig */,
-				F1229703C7CD8DF171EBA24851A98201 /* JamesSDKCore.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JamesSDKCore";
-			sourceTree = "<group>";
-		};
-		8B4FA7B97E631B071C2672102178EAAF /* JamesSDKCore */ = {
-			isa = PBXGroup;
-			children = (
-				04E57E04320247CCA0E1EF097FBF82BF /* ReplaceMe.swift */,
-				38C0707197A2FDC397F4B609B1C2B9B4 /* Pod */,
-				89CB67CBF1F5D4676172694D5A3E63D8 /* Support Files */,
-			);
-			name = JamesSDKCore;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A0BE3681FE8BD8B47039730C267F70AB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				71EA3E12D88FA849F6AECC5E74D9FBE4 /* JamesSDK */,
-				8B4FA7B97E631B071C2672102178EAAF /* JamesSDKCore */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CC40E2BED628F0D8193BF440C7437ED6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5EC3961227C4C35F32AC99D4400C644 /* JamesSDK.debug.xcconfig */,
-				E3402BD6A0CE395F0BF9B64C8FA8E46C /* JamesSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JamesSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A0BE3681FE8BD8B47039730C267F70AB /* Development Pods */,
+				9286B8F335F8C6A2FF6771803340C888 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7AD390D8B48FF8B3922CCF20AEE3C567 /* Products */,
+				A1FA6136D6F092FC51DA1CF44828C681 /* Products */,
 				EAAA12A1FD4E33E0F35D546EEF68002D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -283,6 +303,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53C9ADAAE23C48B75547498E436121B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DFA53CD65C90472030C6DCCC43630 /* JamesSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FD648AE2BB0A32DBC5857085B2F9A30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,12 +360,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				7CF2A3D33EF71A7148E4BAA2EB999C2A /* PBXTargetDependency */,
-				2FBF542D6D612C61245A7BBA917F9803 /* PBXTargetDependency */,
+				801BA96B3BCBD6AE74BFDE6D11CFFB6F /* PBXTargetDependency */,
+				9AC9E739E91B3E7FF97E8E3FBF05415C /* PBXTargetDependency */,
 			);
 			name = "Pods-JamesSDK_Example";
 			productName = Pods_JamesSDK_Example;
 			productReference = F9F3951CBEE482F3712ECCE1D8C2BC62 /* Pods-JamesSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A0B111D72AAA4F58D0B2783C9F46AB2 /* JamesSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D74AC02F251955AE4CEA39DB60CCAF /* Build configuration list for PBXNativeTarget "JamesSDK" */;
+			buildPhases = (
+				53C9ADAAE23C48B75547498E436121B6 /* Headers */,
+				72AC12A2BEEA10D3A32793003841573F /* Sources */,
+				85F2A06FF9EDC2002CE6A4DEAE00F1E1 /* Frameworks */,
+				DD5AA88F17C922F991700E0B18AD674E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JamesSDK;
+			productName = JamesSDK;
+			productReference = 54E88536FD9A2DADD3ED8601055E1FB2 /* JamesSDK */;
 			productType = "com.apple.product-type.framework";
 		};
 		97ABCA0E4D2B573E3BCC6D82574D3ED6 /* Pods-JamesSDK_Tests */ = {
@@ -352,7 +398,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0407F7B562A4636338B22E203DE54DE0 /* PBXTargetDependency */,
+				CCADA9C795CD03AAB191B8C7996747EE /* PBXTargetDependency */,
 			);
 			name = "Pods-JamesSDK_Tests";
 			productName = Pods_JamesSDK_Tests;
@@ -377,7 +423,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7AD390D8B48FF8B3922CCF20AEE3C567 /* Products */;
+			productRefGroup = A1FA6136D6F092FC51DA1CF44828C681 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -391,6 +437,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		A70AF07B838A2C8BD780CBA205BE8FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5AA88F17C922F991700E0B18AD674E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,6 +467,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		72AC12A2BEEA10D3A32793003841573F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28A304E0BC4072A2006E4EC4B66FACD /* JamesSDK-dummy.m in Sources */,
+				7B17D69F3B396CD3133F985FDD286A05 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		906DF3C386A1BBCA22434514DB272E83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,30 +504,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0407F7B562A4636338B22E203DE54DE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JamesSDK_Example";
-			target = 3BF4B8D197A9D16440E6B39E18E28F04 /* Pods-JamesSDK_Example */;
-			targetProxy = 3687F04B90D4142BB031170DF633469B /* PBXContainerItemProxy */;
-		};
-		2FBF542D6D612C61245A7BBA917F9803 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JamesSDKCore;
-			target = 2EB9B442995885E174DB4586C867E69D /* JamesSDKCore */;
-			targetProxy = 1CA79BB2319E0645DFF1C920CF34B88B /* PBXContainerItemProxy */;
-		};
-		7CF2A3D33EF71A7148E4BAA2EB999C2A /* PBXTargetDependency */ = {
+		801BA96B3BCBD6AE74BFDE6D11CFFB6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JamesSDK;
 			target = 7A0B111D72AAA4F58D0B2783C9F46AB2 /* JamesSDK */;
-			targetProxy = 19A5AE281AF6BD0ADB0F2DA85FE04ABA /* PBXContainerItemProxy */;
+			targetProxy = FB78271B2F25BFB6C91CE2124B9766B5 /* PBXContainerItemProxy */;
+		};
+		9AC9E739E91B3E7FF97E8E3FBF05415C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JamesSDKCore;
+			target = 2EB9B442995885E174DB4586C867E69D /* JamesSDKCore */;
+			targetProxy = 67A920D9165D7F96808BA8B7E86BBA5C /* PBXContainerItemProxy */;
+		};
+		CCADA9C795CD03AAB191B8C7996747EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JamesSDK_Example";
+			target = 3BF4B8D197A9D16440E6B39E18E28F04 /* Pods-JamesSDK_Example */;
+			targetProxy = 8DBD913FB24DB5DA60439D85BAD4C32D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0564FA2DC08D666B1DE9B0BF21186D7D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1229703C7CD8DF171EBA24851A98201 /* JamesSDKCore.release.xcconfig */;
+			baseConfigurationReference = 5561B514D3FBBDAA73B5849165C6EACD /* JamesSDKCore.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -493,6 +555,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1824FB1CE635A04F79089105B5411A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452D0987D19583819B10B989F864389A /* JamesSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JamesSDK/JamesSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JamesSDK/JamesSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JamesSDK/JamesSDK.modulemap";
+				PRODUCT_MODULE_NAME = JamesSDK;
+				PRODUCT_NAME = JamesSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -586,6 +678,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		388B611BA56FC67011DB6BDBE6160482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC675975840A8AB7A33DD5AE630BB79 /* JamesSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JamesSDK/JamesSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JamesSDK/JamesSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JamesSDK/JamesSDK.modulemap";
+				PRODUCT_MODULE_NAME = JamesSDK;
+				PRODUCT_NAME = JamesSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -692,7 +815,7 @@
 		};
 		A90F4E15C5380D76170F9BF2D123D096 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B059CB0585B81A4493D613A572E1037A /* JamesSDKCore.debug.xcconfig */;
+			baseConfigurationReference = D88B7EF116FBE0DCD522526879A88B19 /* JamesSDKCore.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,33 +840,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB2F3873FFACC87D4D13917033DC59DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3402BD6A0CE395F0BF9B64C8FA8E46C /* JamesSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AE40FAD173CBE771681F5B77491C4761 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5EC3961227C4C35F32AC99D4400C644 /* JamesSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -821,15 +917,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		330F0E77935B03B4B0C33376AEA83A6A /* Build configuration list for PBXAggregateTarget "JamesSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE40FAD173CBE771681F5B77491C4761 /* Debug */,
-				AB2F3873FFACC87D4D13917033DC59DC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -844,6 +931,15 @@
 			buildConfigurations = (
 				A90F4E15C5380D76170F9BF2D123D096 /* Debug */,
 				0564FA2DC08D666B1DE9B0BF21186D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D74AC02F251955AE4CEA39DB60CCAF /* Build configuration list for PBXNativeTarget "JamesSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824FB1CE635A04F79089105B5411A24 /* Debug */,
+				388B611BA56FC67011DB6BDBE6160482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

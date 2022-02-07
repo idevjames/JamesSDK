@@ -25,7 +25,7 @@
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "Classes/Core"
+      "source_files": "JamesSDKCore/Classes/**/*"
     }
   ]
 }
